@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9a68911f03455f5ef8a99c9000c8ee6d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9a68911f03455f5ef8a99c9000c8ee6d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9a68911f03455f5ef8a99c9000c8ee6d = L.map(
+                "map_9a68911f03455f5ef8a99c9000c8ee6d",
+                {
+                    center: [35.31422390271565, 136.05841210419197],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e5f4b58b17de69b6eecc2bea9d2d78ee = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+            var marker_138c0bfe5d9674687ec795f68543081f = L.marker(
+                [36.1394074797448, 137.251877055656],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_31228530ec6c0d5027c474ece4c25717 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca3e2530c0a090388618d40ffa49dd2c = $(`<div id="html_ca3e2530c0a090388618d40ffa49dd2c" style="width: 100.0%; height: 100.0%;">Ajikura tengoku</div>`)[0];
+                popup_31228530ec6c0d5027c474ece4c25717.setContent(html_ca3e2530c0a090388618d40ffa49dd2c);
+            
+        
+
+        marker_138c0bfe5d9674687ec795f68543081f.bindPopup(popup_31228530ec6c0d5027c474ece4c25717)
+        ;
+
+        
+    
+    
+            var marker_caea110ee5938312c6dac26df780dbaf = L.marker(
+                [36.1462768510609, 137.258984591324],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_adf4b0608321f527b67b5dd78a1ee59f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_303591cfcb8537360993f0b3bd9889d8 = $(`<div id="html_303591cfcb8537360993f0b3bd9889d8" style="width: 100.0%; height: 100.0%;">Kyōya</div>`)[0];
+                popup_adf4b0608321f527b67b5dd78a1ee59f.setContent(html_303591cfcb8537360993f0b3bd9889d8);
+            
+        
+
+        marker_caea110ee5938312c6dac26df780dbaf.bindPopup(popup_adf4b0608321f527b67b5dd78a1ee59f)
+        ;
+
+        
+    
+    
+            var marker_d9df66246e618aa425f648a573dc41f0 = L.marker(
+                [36.1420164064638, 137.259330503654],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_84d034d2c155e7f255e91fac65c03cbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fafe2812c1b39384e0a743b75c2efe9a = $(`<div id="html_fafe2812c1b39384e0a743b75c2efe9a" style="width: 100.0%; height: 100.0%;">Hida Kotte Ushi</div>`)[0];
+                popup_84d034d2c155e7f255e91fac65c03cbe.setContent(html_fafe2812c1b39384e0a743b75c2efe9a);
+            
+        
+
+        marker_d9df66246e618aa425f648a573dc41f0.bindPopup(popup_84d034d2c155e7f255e91fac65c03cbe)
+        ;
+
+        
+    
+    
+            var marker_c57a62027dfb6b3e3af0cb19916e02f0 = L.marker(
+                [36.1434496658574, 137.257037326591],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_582c33746887d46e13f90d9acce5ce04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de8b4d59b1f9fe2a8396dd925f25c81b = $(`<div id="html_de8b4d59b1f9fe2a8396dd925f25c81b" style="width: 100.0%; height: 100.0%;">Kikyou-ya</div>`)[0];
+                popup_582c33746887d46e13f90d9acce5ce04.setContent(html_de8b4d59b1f9fe2a8396dd925f25c81b);
+            
+        
+
+        marker_c57a62027dfb6b3e3af0cb19916e02f0.bindPopup(popup_582c33746887d46e13f90d9acce5ce04)
+        ;
+
+        
+    
+    
+            var marker_6d2fe852d05eca660dea638221952442 = L.marker(
+                [34.6737782704739, 135.502282352673],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_2f83ffd74290c821f6a6da326540edcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3269824f5eb6f35be130b355a152781b = $(`<div id="html_3269824f5eb6f35be130b355a152781b" style="width: 100.0%; height: 100.0%;">MITSURU</div>`)[0];
+                popup_2f83ffd74290c821f6a6da326540edcc.setContent(html_3269824f5eb6f35be130b355a152781b);
+            
+        
+
+        marker_6d2fe852d05eca660dea638221952442.bindPopup(popup_2f83ffd74290c821f6a6da326540edcc)
+        ;
+
+        
+    
+    
+            var marker_cb61992e28cc1adaec2866878fbb3cba = L.marker(
+                [34.6581589661572, 135.498231449868],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_dc42d59b68c5a0ef5d28be300987eff2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5f10aa18302c1bd6b0b8f2d48ae7c5c = $(`<div id="html_e5f10aa18302c1bd6b0b8f2d48ae7c5c" style="width: 100.0%; height: 100.0%;">KURA SUSHI</div>`)[0];
+                popup_dc42d59b68c5a0ef5d28be300987eff2.setContent(html_e5f10aa18302c1bd6b0b8f2d48ae7c5c);
+            
+        
+
+        marker_cb61992e28cc1adaec2866878fbb3cba.bindPopup(popup_dc42d59b68c5a0ef5d28be300987eff2)
+        ;
+
+        
+    
+    
+            var marker_382b62ad8f2b74beb854f60aeda77c1e = L.marker(
+                [34.665225304494, 135.503366374497],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_a1f7d5ee822c1f8c40b6c86b73f19202 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_563d07de92d07025368ce793c6cd3095 = $(`<div id="html_563d07de92d07025368ce793c6cd3095" style="width: 100.0%; height: 100.0%;">Takoyaki Wanaka (10:30am-9pm)</div>`)[0];
+                popup_a1f7d5ee822c1f8c40b6c86b73f19202.setContent(html_563d07de92d07025368ce793c6cd3095);
+            
+        
+
+        marker_382b62ad8f2b74beb854f60aeda77c1e.bindPopup(popup_a1f7d5ee822c1f8c40b6c86b73f19202)
+        ;
+
+        
+    
+    
+            var marker_bfc5623e2a9225486100448b75ecc408 = L.marker(
+                [34.7097788590938, 135.514998587559],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_9062f9acc3b022ac6a4268ca86e34b2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b29e13f57d1a20a092b14578f5e95bad = $(`<div id="html_b29e13f57d1a20a092b14578f5e95bad" style="width: 100.0%; height: 100.0%;">Takoyaki Tamaya (11am-9pm;</div>`)[0];
+                popup_9062f9acc3b022ac6a4268ca86e34b2e.setContent(html_b29e13f57d1a20a092b14578f5e95bad);
+            
+        
+
+        marker_bfc5623e2a9225486100448b75ecc408.bindPopup(popup_9062f9acc3b022ac6a4268ca86e34b2e)
+        ;
+
+        
+    
+    
+            var marker_f74f950392ea61bb587981cf5609b6a9 = L.marker(
+                [34.7009573951814, 135.499117927764],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_409cfcba498607fe12607c8dfa7999fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_979810c0d19ab70693ece4dc2ae3283c = $(`<div id="html_979810c0d19ab70693ece4dc2ae3283c" style="width: 100.0%; height: 100.0%;">Hanshin Meibutsu Ikayaki (10am-9pm)</div>`)[0];
+                popup_409cfcba498607fe12607c8dfa7999fa.setContent(html_979810c0d19ab70693ece4dc2ae3283c);
+            
+        
+
+        marker_f74f950392ea61bb587981cf5609b6a9.bindPopup(popup_409cfcba498607fe12607c8dfa7999fa)
+        ;
+
+        
+    
+    
+            var marker_0ec1341dd23fbe1fff4e40175b902d01 = L.marker(
+                [34.6683882106366, 135.503229523469],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_06caab6ed825e74cc12542b10997cf48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_687607b2a7f2e0ca92fa195260d3843e = $(`<div id="html_687607b2a7f2e0ca92fa195260d3843e" style="width: 100.0%; height: 100.0%;">Okonomiyaki Mizuno (11am-10pm; closed Thursdays) </div>`)[0];
+                popup_06caab6ed825e74cc12542b10997cf48.setContent(html_687607b2a7f2e0ca92fa195260d3843e);
+            
+        
+
+        marker_0ec1341dd23fbe1fff4e40175b902d01.bindPopup(popup_06caab6ed825e74cc12542b10997cf48)
+        ;
+
+        
+    
+    
+            var marker_97e837a388feba36da2a6461ba3b29a4 = L.marker(
+                [34.663096601234, 135.500790982748],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_f2f6ddcb94ff3a3776426b97340bf0d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6edf534d7586a2c73075f1ba9d1c4db7 = $(`<div id="html_6edf534d7586a2c73075f1ba9d1c4db7" style="width: 100.0%; height: 100.0%;">Kyabetsu-yaki (10am-8pm) </div>`)[0];
+                popup_f2f6ddcb94ff3a3776426b97340bf0d5.setContent(html_6edf534d7586a2c73075f1ba9d1c4db7);
+            
+        
+
+        marker_97e837a388feba36da2a6461ba3b29a4.bindPopup(popup_f2f6ddcb94ff3a3776426b97340bf0d5)
+        ;
+
+        
+    
+    
+            var marker_020726ea4887a86344e69bbfacfe0b35 = L.marker(
+                [34.6678272642745, 135.502233251059],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_f77c539ee2ecaa18ef0a16676a48f0fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_339c38d672a6aa41afa2e3123c79f5a2 = $(`<div id="html_339c38d672a6aa41afa2e3123c79f5a2" style="width: 100.0%; height: 100.0%;">Kushikatsu Daruma (11am-10:30pm)</div>`)[0];
+                popup_f77c539ee2ecaa18ef0a16676a48f0fe.setContent(html_339c38d672a6aa41afa2e3123c79f5a2);
+            
+        
+
+        marker_020726ea4887a86344e69bbfacfe0b35.bindPopup(popup_f77c539ee2ecaa18ef0a16676a48f0fe)
+        ;
+
+        
+    
+    
+            var marker_087e0195edd5d1f7308bad9e023d3962 = L.marker(
+                [34.6778696656793, 135.495678284143],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_7b23e9a3b1f7c8a0a646396863dabe4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84b1702f02026013a79759987b5ba4d1 = $(`<div id="html_84b1702f02026013a79759987b5ba4d1" style="width: 100.0%; height: 100.0%;">Udonzin Beat (11:30am-3pm, 1-10:30pm; closed Wednesdays)</div>`)[0];
+                popup_7b23e9a3b1f7c8a0a646396863dabe4e.setContent(html_84b1702f02026013a79759987b5ba4d1);
+            
+        
+
+        marker_087e0195edd5d1f7308bad9e023d3962.bindPopup(popup_7b23e9a3b1f7c8a0a646396863dabe4e)
+        ;
+
+        
+    
+    
+            var marker_64cfbd60191aaab77804cc2538f01bc5 = L.marker(
+                [34.6688374295675, 135.502561611866],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_b672278a641ee2b6dace04e9dd4e21bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9e0239ca1a8213f046b46cb208f1d2c = $(`<div id="html_a9e0239ca1a8213f046b46cb208f1d2c" style="width: 100.0%; height: 100.0%;">Genrokuzushi (11am-10:30pm)</div>`)[0];
+                popup_b672278a641ee2b6dace04e9dd4e21bf.setContent(html_a9e0239ca1a8213f046b46cb208f1d2c);
+            
+        
+
+        marker_64cfbd60191aaab77804cc2538f01bc5.bindPopup(popup_b672278a641ee2b6dace04e9dd4e21bf)
+        ;
+
+        
+    
+    
+            var marker_020389967ca56a4bdf0272216a29e91f = L.marker(
+                [34.6465656026043, 135.51118641879],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_62cb05c27e17771464538a4483fa3cb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dbeff453cea2ce6116396880ab11c1d = $(`<div id="html_7dbeff453cea2ce6116396880ab11c1d" style="width: 100.0%; height: 100.0%;">Akashiyaki & Okonomiyaki Takohachi </div>`)[0];
+                popup_62cb05c27e17771464538a4483fa3cb7.setContent(html_7dbeff453cea2ce6116396880ab11c1d);
+            
+        
+
+        marker_020389967ca56a4bdf0272216a29e91f.bindPopup(popup_62cb05c27e17771464538a4483fa3cb7)
+        ;
+
+        
+    
+    
+            var marker_8571ae6a6f6b333340739485b649b09b = L.marker(
+                [34.6972051125008, 135.535127679322],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_3d4b10ebe2fb9796530f317a5fa5b707 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf160ee491bc91c64c56abe28e7f8d52 = $(`<div id="html_cf160ee491bc91c64c56abe28e7f8d52" style="width: 100.0%; height: 100.0%;">Izakaya Toyo</div>`)[0];
+                popup_3d4b10ebe2fb9796530f317a5fa5b707.setContent(html_cf160ee491bc91c64c56abe28e7f8d52);
+            
+        
+
+        marker_8571ae6a6f6b333340739485b649b09b.bindPopup(popup_3d4b10ebe2fb9796530f317a5fa5b707)
+        ;
+
+        
+    
+    
+            var marker_0cfd228084e3953bf72cae4ceed5861d = L.marker(
+                [34.6718138353653, 135.502206708851],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_245151066043147bf660a70c586afd19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d307a492850735d3ef2a3a2e46bfb25 = $(`<div id="html_2d307a492850735d3ef2a3a2e46bfb25" style="width: 100.0%; height: 100.0%;">rikimaru</div>`)[0];
+                popup_245151066043147bf660a70c586afd19.setContent(html_2d307a492850735d3ef2a3a2e46bfb25);
+            
+        
+
+        marker_0cfd228084e3953bf72cae4ceed5861d.bindPopup(popup_245151066043147bf660a70c586afd19)
+        ;
+
+        
+    
+    
+            var marker_af323bace01c8726d25d1cb8e0dae965 = L.marker(
+                [36.5713798265322, 136.656818273977],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_5ec52260aa698791e25b9eb797846678 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63010585241b032d9bf07eb27cb91d39 = $(`<div id="html_63010585241b032d9bf07eb27cb91d39" style="width: 100.0%; height: 100.0%;">Omicho Market</div>`)[0];
+                popup_5ec52260aa698791e25b9eb797846678.setContent(html_63010585241b032d9bf07eb27cb91d39);
+            
+        
+
+        marker_af323bace01c8726d25d1cb8e0dae965.bindPopup(popup_5ec52260aa698791e25b9eb797846678)
+        ;
+
+        
+    
+    
+            var marker_f2affbb857ff03d81a6cd8799091243f = L.marker(
+                [36.5713653429671, 136.655470189272],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_def109fb3d7f89ec4778d6a7a54e1f2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1e5cdaa9e6fda8bdb48074000504ae7 = $(`<div id="html_c1e5cdaa9e6fda8bdb48074000504ae7" style="width: 100.0%; height: 100.0%;">Kaitenzushi Okura</div>`)[0];
+                popup_def109fb3d7f89ec4778d6a7a54e1f2c.setContent(html_c1e5cdaa9e6fda8bdb48074000504ae7);
+            
+        
+
+        marker_f2affbb857ff03d81a6cd8799091243f.bindPopup(popup_def109fb3d7f89ec4778d6a7a54e1f2c)
+        ;
+
+        
+    
+    
+            var marker_db27806d48c624f3abac8afcd291e1eb = L.marker(
+                [36.5696713642001, 136.658469804516],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_c06a8a6ef9ba59ef4b01949caf8daaa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7753aa6e70f71278b4580ac0a1c2a0dd = $(`<div id="html_7753aa6e70f71278b4580ac0a1c2a0dd" style="width: 100.0%; height: 100.0%;">Kourin Sushi</div>`)[0];
+                popup_c06a8a6ef9ba59ef4b01949caf8daaa9.setContent(html_7753aa6e70f71278b4580ac0a1c2a0dd);
+            
+        
+
+        marker_db27806d48c624f3abac8afcd291e1eb.bindPopup(popup_c06a8a6ef9ba59ef4b01949caf8daaa9)
+        ;
+
+        
+    
+    
+            var marker_c967195a7aa0a326ae07e365aa8e2f20 = L.marker(
+                [36.5456325029399, 136.657655290432],
+                {}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+        var popup_a48935e87903ccbdd3a1f3b29aeba6d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8154aef2c1009fb839ba16524568a562 = $(`<div id="html_8154aef2c1009fb839ba16524568a562" style="width: 100.0%; height: 100.0%;">Kagura</div>`)[0];
+                popup_a48935e87903ccbdd3a1f3b29aeba6d3.setContent(html_8154aef2c1009fb839ba16524568a562);
+            
+        
+
+        marker_c967195a7aa0a326ae07e365aa8e2f20.bindPopup(popup_a48935e87903ccbdd3a1f3b29aeba6d3)
+        ;
+
+        
+    
+    
+            var circle_d04bf1985bd893b573501f295936d481 = L.circle(
+                [34.69952147, 135.4917829],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300, "stroke": true, "weight": 3}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+            var circle_48526f8ece4d42cb318e772f719975a4 = L.circle(
+                [36.14174137, 137.2527469],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300, "stroke": true, "weight": 3}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+    
+            var circle_a8ec991286feee35668d9da164158f92 = L.circle(
+                [36.58084536, 136.6447988],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300, "stroke": true, "weight": 3}
+            ).addTo(map_9a68911f03455f5ef8a99c9000c8ee6d);
+        
+</script>
+</html>
